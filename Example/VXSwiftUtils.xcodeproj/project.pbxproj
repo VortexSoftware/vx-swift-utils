@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		177C84C1B072E34C7F805684 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		177C84C1B072E34C7F805684 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1DEC427532AE64E9E7281822 /* Pods_VXSwiftUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VXSwiftUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EFBD88E96C255481B90B53 /* Pods-VXSwiftUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSwiftUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-VXSwiftUtils_Tests/Pods-VXSwiftUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VXSwiftUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VXSwiftUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BF9F971334BD64433A74E6F /* Pods-VXSwiftUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSwiftUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-VXSwiftUtils_Example/Pods-VXSwiftUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7BA26E6F204A6C3ACD213A09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		845E9905C379BE62280D7259 /* VXSwiftUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VXSwiftUtils.podspec; path = ../VXSwiftUtils.podspec; sourceTree = "<group>"; };
+		7BA26E6F204A6C3ACD213A09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		845E9905C379BE62280D7259 /* VXSwiftUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VXSwiftUtils.podspec; path = ../VXSwiftUtils.podspec; sourceTree = "<group>"; };
 		847CA66BE4F0A6655648B20D /* Pods_VXSwiftUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VXSwiftUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95DD1EACEF0D59844936C3A /* Pods-VXSwiftUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSwiftUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VXSwiftUtils_Tests/Pods-VXSwiftUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9B42DF55845ECDD4BD32EE /* Pods-VXSwiftUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXSwiftUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-VXSwiftUtils_Example/Pods-VXSwiftUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				A95DD1EACEF0D59844936C3A /* Pods-VXSwiftUtils_Tests.debug.xcconfig */,
 				50EFBD88E96C255481B90B53 /* Pods-VXSwiftUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z3W9JWYRKY;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,10 +479,11 @@
 			baseConfigurationReference = 6BF9F971334BD64433A74E6F /* Pods-VXSwiftUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3W9JWYRKY;
 				INFOPLIST_FILE = VXSwiftUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.vortexsoftware.VXSwiftUtils.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +495,11 @@
 			baseConfigurationReference = DD9B42DF55845ECDD4BD32EE /* Pods-VXSwiftUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3W9JWYRKY;
 				INFOPLIST_FILE = VXSwiftUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.vortexsoftware.VXSwiftUtils.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

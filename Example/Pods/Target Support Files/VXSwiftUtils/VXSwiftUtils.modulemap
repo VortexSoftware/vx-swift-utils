@@ -1,0 +1,6 @@
+framework module VXSwiftUtils {
+  umbrella header "VXSwiftUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

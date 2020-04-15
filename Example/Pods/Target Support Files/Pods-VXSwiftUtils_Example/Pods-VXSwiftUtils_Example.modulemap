@@ -1,0 +1,6 @@
+framework module Pods_VXSwiftUtils_Example {
+  umbrella header "Pods-VXSwiftUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "VXSwiftUtils",
+  "version": "0.1.0",
+  "summary": "A short description of VXSwiftUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gsobrevilla/VXSwiftUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gsobrevilla": "gastonsobrevilla@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gsobrevilla/VXSwiftUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VXSwiftUtils/Classes/**/*"
+}

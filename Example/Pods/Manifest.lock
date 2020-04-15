@@ -1,0 +1,16 @@
+PODS:
+  - VXSwiftUtils (0.1.0)
+
+DEPENDENCIES:
+  - VXSwiftUtils (from `../`)
+
+EXTERNAL SOURCES:
+  VXSwiftUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VXSwiftUtils: 6884d17b7e6d4588e3d97971f7b565b233917cb2
+
+PODFILE CHECKSUM: c77123a328917ddd515f3ba5b48cf64bdb020aca
+
+COCOAPODS: 1.8.0.beta.1
