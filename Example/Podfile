@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VXSwiftUtils_Example' do
+  pod 'VXSwiftUtils', :path => '../'
+
+  target 'VXSwiftUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
